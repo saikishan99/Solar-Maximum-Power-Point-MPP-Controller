@@ -52,7 +52,7 @@ To execute the simulink model and observe the corresponding graphs:
 3. **Output:**
    - Check the graphs of PV Side and Output DC DC Converter.
      
-4. **Steps to Execute for variable irradiance of 1000 signal "Test_Signal_MPPT"**
+4. **Steps to Execute for variable irradiance of the signal "Test_Signal_MPPT"**
    - Open MATLAB simulink.
    - Navigate to the folder containing the project files.
    - Run the file `MPPT_Final_Working_Model.slx` by clicking run button
