@@ -1,44 +1,23 @@
-# Solar Maximum Power Point (MPP) Controller
+# Heat Exchanger Temperature Control Using Advanced PID Controllers
 
- The increasing demand for renewable energy
-sources has highlighted the need for efficient photovoltaic
-(PV) systems that can reliably harvest maximum energy
-under varying environmental conditions. Traditional Maximum Power Point Tracking (MPPT) methods often suffer
-from inefficiencies in tracking accuracy and response time,
-particularly under dynamic irradiance and temperature
-changes. Additionally, the variable output of PV arrays
-poses challenges in delivering a stable and consistent power
-supply for practical applications. This project addresses
-these challenges by developing an advanced PV system
-featuring a PI control-based MPPT algorithm and a DCDC boost converter, designed to enhance energy harvesting
-efficiency and provide stable output. The system is modeled
-and simulated in MATLAB (MATLAB), incorporating
-real-time environmental data to ensure realistic and robust
-performance validation, making it suitable for deployment
-in real-world renewable energy scenarios.
+## Overview
+This project focuses on the application and enhancement of Proportional-Integral-Derivative (PID) controllers for regulating the outlet fluid temperature in heat exchangers. Heat exchangers play a critical role in industrial processes, requiring precise temperature control to ensure efficiency, stability, and energy conservation.
+
+Conventional PID controllers, while widely used due to their simplicity and effectiveness, face challenges in handling process nonlinearity, disturbances, and equipment limitations. To overcome these challenges, this project implements an advanced internal model-based PID controller.
 
 
-## How to Run in Simulink
+## How to Run in MATLAB
 To execute the simulink model and observe the corresponding graphs:
 
 1. **Pre-requisites:**
-   - MATLAB Simulink installed on your system.
-   - Ensure that all required MATLAB simulink toolboxes are installed.
+   - MATLAB installed on your system.
+   - Ensure that all required MATLAB toolboxes are installed.
 
-2. **Steps to Execute for constant irradiance of 1000 signal "Test_Constant_1000"**
+2. **Steps to Execute**
    - Open MATLAB simulink.
    - Navigate to the folder containing the project files.
-   - Run the file `MPPT_Final_Working_Model.slx` by clicking run button
+   - Run the file by clicking run button
      
 
 3. **Output:**
-   - Check the graphs of PV Side and Output DC DC Converter.
-     
-4. **Steps to Execute for variable irradiance of the signal "Test_Signal_MPPT"**
-   - Open MATLAB simulink.
-   - Navigate to the folder containing the project files.
-   - Run the file `MPPT_Final_Working_Model.slx` by clicking run button
-   - Make sure the input is connected to "Test_Signal_MPPT" signal.
-
-5. **Output:**
-   - Check the graphs of PV Side and Output DC DC Converter.
+   - Check the graphs output.
