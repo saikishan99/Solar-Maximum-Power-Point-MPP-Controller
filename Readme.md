@@ -1,2 +1,4 @@
-// Solar Maximum Power Point (MPP) Controller![image](https://github.com/user-attachments/assets/71905b36-a83e-4501-bf54-d1296b7b270d)
+// Solar Maximum Power Point (MPP) Controller
+** Run the file  "DC_DC_con_Ratings_Calculations_Code.mat" to get result for DC DC converter ratings
+
 
