@@ -36,28 +36,4 @@ To execute the code and calculate the DC-DC converter ratings:
 3. **Output:**
    - The file calculates and outputs the required ratings for the DC-DC converter.
    - Results will be displayed in the MATLAB workspace and/or plotted as graphs.
-## How to Run in Simulink
-To execute the simulink model and observe the corresponding graphs:
-
-1. **Pre-requisites:**
-   - MATLAB Simulink installed on your system.
-   - Ensure that all required MATLAB simulink toolboxes are installed.
-
-2. **Steps to Execute for constant irradiance of 1000 signal "Test_Constant_1000"**
-   - Open MATLAB simulink.
-   - Navigate to the folder containing the project files.
-   - Run the file `MPPT_Final_Working_Model.slx` by clicking run button
-     
-
-3. **Output:**
-   - Check the graphs of PV Side and Output DC DC Converter.
-     
-4. **Steps to Execute for variable irradiance of the signal "Test_Signal_MPPT"**
-   - Open MATLAB simulink.
-   - Navigate to the folder containing the project files.
-   - Run the file `MPPT_Final_Working_Model.slx` by clicking run button
-   - Make sure the input is connected to "Test_Signal_MPPT" signal.
-
-5. **Output:**
-   - Check the graphs of PV Side and Output DC DC Converter.
 
